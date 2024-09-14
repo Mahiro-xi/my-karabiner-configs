@@ -1,0 +1,15 @@
+{
+    "description": "Remap `han/zen key` to `Ctrl + Space` for input method switching",
+    "manipulators": [
+        {
+            "from": { "key_code": "grave_accent_and_tilde" },
+            "to": [
+                {
+                    "key_code": "spacebar",
+                    "modifiers": ["control"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
